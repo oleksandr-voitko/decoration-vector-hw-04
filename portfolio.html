@@ -17,11 +17,10 @@
     <header class="header">
         <div class="container">
             <nav class="navigation">
-                <a class="logo link" href="./index.html" aria-label="Логотип" lang="en"><span class="logo-accent">Web
-                    </span>Studio</a>
+                <a class="logo link" href="./index.html" aria-label="Логотип" lang="en"><span class="logo-accent">Web </span>Studio</a>
                 <ul class="navigation-list list">
                     <li class="navigation-list-item">
-                        <a class="navigation-list-link link" href="./index.html">Студия</a>
+                        <a class="navigation-list-link link " href="./index.html">Студия</a>
                     </li>
                     <li class="navigation-list-item">
                         <a class="navigation-list-link link active-page" href="./portfolio.html">Портфолио</a>
@@ -34,10 +33,20 @@
             <address class="header-address">
                 <ul class="header-address-list list">
                     <li>
-                        <a class="header-mail link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a>
+                        <a class="header-mail link" href="mailto:info@devstudio.com" lang="en">
+                            <svg class="header-mail-icon", width="16", hight="11.2">
+                                <use href="../images/sprite.svg#icon-envelope" alt="Изображение спутниковой антены"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
                     </li>
                     <li>
-                        <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        <a class="header-tel link" href="tel:+380961111111">
+                            <svg class="header-tel-icon", width="10", hight="15">
+                                <use href="../images/sprite.svg#icon-smartphone" alt="Изображение спутниковой антены"></use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
                     </li>
                 </ul>
             </address>
@@ -47,6 +56,7 @@
         <h1 hidden>Портфолио</h1>
         <!--Секция ФИЛЬТР-->
         <section class="filter">
+            <!-- <div class="good"></div> -->
             <div class="container">
                 <h2 hidden>Фильтр</h2>
                 <ul class="filter-list list">
@@ -67,7 +77,6 @@
                     </li>
                 </ul>
             </div>
-
         </section>
         <!--Секция ПРИМЕРЫ РОБОТ-->
         <section class="work">
@@ -192,29 +201,25 @@
                     </li>
                 </ul>
             </div>
-
         </section>
     </main>
     <!--ПОДВАЛ-->
     <footer class="footer">
         <div class="container">
             <div class="footer-colomn-first">
-                <a class="logo link" href="./index.html" aria-label="Логотип" lang="en"><span class="logo-accent">Web
-                    </span>Studio</a>
+                <a class="logo link" href="./index.html" aria-label="Логотип" lang="en"><span class="logo-accent">Web </span>Studio</a>
                 <address class="contacts">
                     <ul class="contacts-list list">
                         <li class="contacts-list-item">
-                            <a class="contacts-list-link-address link" href="https://goo.gl/maps/ncMXrBjSjiiqY7jAA"
-                                target="_blank">г. Киев, пр-т Леси Украинки,
+                            <a class="contacts-list-link-address link" href="https://goo.gl/maps/ncMXrBjSjiiqY7jAA" target="_blank">г. Киев, пр-т Леси Украинки,
                                 26</a>
                         </li>
                         <li class="contacts-list-item">
-                            <a class="contacts-list-link link" href="mailto:info@devstudio.com"
-                                lang="en">info@devstudio.com</a>
+                            <a class="contacts-list-link link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a>
                         </li>
                         <li class="contacts-list-item">
                             <a class="contacts-list-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-
+    
                         </li>
                     </ul>
                 </address>
@@ -223,23 +228,35 @@
                 <p class="footer-titel">ПРИСОЕДИНЯЙТЕСЬ</p>
                 <ul class="social-links list">
                     <li class="social-links-item">
-                        <a class="social-links-item-link link" href="" aria-label="Ссылка Инстаграм">
-                            <img src="./images/logo-instagram-dark.svg" alt="Иконка Инстаграм">
+                        <a class="footer-social-links-item-link link" href="" aria-label="Ссылка Инстаграм">
+                            <svg class="social-link-item-logo">
+                                <use href="../images/sprite.svg#icon-logo-instagram" alt="Иконка Инстаграм"></use>
+                            </svg>
+                            <!-- <img src="./images/logo-instagram.svg" alt="Иконка Инстаграм"> -->
                         </a>
                     </li>
                     <li class="social-links-item">
-                        <a class="social-links-item-link link" href="" aria-label="Ссылка Твиттер">
-                            <img src="./images/logo-twitter-active.svg" alt="Иконка Твиттер">
+                        <a class="footer-social-links-item-link link" href="" aria-label="Ссылка Твиттер">
+                            <svg class="social-link-item-logo">
+                                <use href="../images/sprite.svg#icon-logo-twitter" alt="Иконка Твиттер"></use>
+                            </svg>
+                            <!-- <img src="./images/logo-twitter.svg" alt="Иконка Твиттер"> -->
                         </a>
                     </li>
                     <li class="social-links-item">
-                        <a class="social-links-item-link link" href="" aria-label="Ссылка Фейсбук">
-                            <img src="./images/logo-facebook-dark.svg" alt="Иконка Фейсбук">
+                        <a class="footer-social-links-item-link link" href="" aria-label="Ссылка Фейсбук">
+                            <svg class="social-link-item-logo">
+                                <use href="../images/sprite.svg#icon-logo-facebook" alt="Иконка Фейсбук"></use>
+                            </svg>
+                            <!-- <img src="./images/logo-facebook.svg" alt="Иконка Фейсбук"> -->
                         </a>
                     </li>
                     <li class="social-links-item">
-                        <a class="social-links-item-link link" href="" aria-label="Ссылка Линкедын">
-                            <img src="./images/logo-linkedin-dark.svg" alt="Иконка Линкедын">
+                        <a class="footer-social-links-item-link link" href="" aria-label="Ссылка Линкедын">
+                            <svg class="social-link-item-logo">
+                                <use href="../images/sprite.svg#icon-logo-linkedin" alt="Иконка Линкедын"></use>
+                            </svg>
+                            <!-- <img src="./images/logo-linkedin.svg" alt="Иконка Линкедын"> -->
                         </a>
                     </li>
                 </ul>
@@ -248,9 +265,9 @@
                 <p class="footer-titel">ПОДПИСЫВАЙТЕСЬ НА РФССЫЛКУ</p>
                 <div class="footer-subcribe-to">
                     <input class="footer-subcribe-input" type="text">
-                    <button type="button" class="button">Подписаться</button>
+                    <button type="button" class="button subcribe">Подписаться</button>
                 </div>
-
+                
             </div>
         </div>
     </footer>

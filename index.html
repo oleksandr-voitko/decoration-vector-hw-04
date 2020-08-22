@@ -32,10 +32,20 @@
             <address class="header-address">
                 <ul class="header-address-list list">
                     <li>
-                        <a class="header-mail link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a>
+                        <a class="header-mail link" href="mailto:info@devstudio.com" lang="en">
+                            <svg class="header-mail-icon", width="16", hight="11.2">
+                                <use href="../images/sprite.svg#icon-envelope" alt="Изображение спутниковой антены"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
                     </li>
                     <li>
-                        <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        <a class="header-tel link" href="tel:+380961111111">
+                            <svg class="header-tel-icon", width="10", hight="15">
+                                <use href="../images/sprite.svg#icon-smartphone" alt="Изображение спутниковой антены"></use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
                     </li>
                 </ul>
             </address>
@@ -46,7 +56,7 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero-titel">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <button type="button" class="button">Заказать услугу</button>
+                <button type="button" class="button order">Заказать услугу</button>
             </div>
         </section>
         <!--Секция ОСОБЕННОСТИ-->
@@ -55,8 +65,12 @@
              <h2 hidden>Особенности</h2>
                 <ul class="features-list list ">
                     <li class="features-list-item">
+                        
                         <div class="features-list-item-box">
-                            <img class="features-list-item-img" src="./images/features/antena.svg" alt="Изображение спутниковой антены">
+                            <svg class="features-list-item-img">
+                                <use href="../images/sprite.svg#icon-antena" alt="Изображение спутниковой антены"></use>
+                            </svg>
+                            <!-- <img class="features-list-item-img" src="./images/features/antena.svg" alt="Изображение спутниковой антены"> -->
                         </div>
                         
                         <h3 class="subtitel-dark">Внимание к деталям</h3>
@@ -65,8 +79,13 @@
                     </li>
                     <li class="features-list-item">
                         <div class="features-list-item-box">
-                            <img class="features-list-item-img" src="./images/features/clock.svg" alt="Изображение часов">
+                            <svg class="features-list-item-img">
+                                <use href="../images/sprite.svg#icon-clock" alt="Изображение часов"></use>
+                            </svg>
                         </div>
+                        <!-- <div class="features-list-item-box">
+                            <img class="features-list-item-img" src="./images/features/clock.svg" alt="Изображение часов">
+                        </div> -->
                         
                         <h3 class="subtitel-dark">Пунктуальность</h3>
                         <p class="description">Задача организации, в особенности же рамки и место обучения кадров влечет за
@@ -74,8 +93,13 @@
                     </li>
                     <li class="features-list-item">
                         <div class="features-list-item-box">
-                            <img class="features-list-item-img"  src="./images/features/diagram.svg" alt="Изображение диаграммы">
+                            <svg class="features-list-item-img">
+                                <use href="../images/sprite.svg#icon-diagram" alt="Изображение диаграммы"></use>
+                            </svg>
                         </div>
+                        <!-- <div class="features-list-item-box">
+                            <img class="features-list-item-img"  src="./images/features/diagram.svg" alt="Изображение диаграммы">
+                        </div> -->
                         
                         <h3 class="subtitel-dark">Планирование</h3>
                         <p class="description">Равным образом консультация с широким активом в значительной степени
@@ -83,8 +107,14 @@
                     </li>
                     <li class="features-list-item">
                         <div class="features-list-item-box">
-                            <img class="features-list-item-img" src="./images/features/astronaut.svg" alt="Изображение астронавта">
+                            <svg class="features-list-item-img">
+                                <use href="../images/sprite.svg#icon-astronaut" alt="Изображение астронавта"></use>
+                            </svg>
                         </div>
+                        
+                        <!-- <div class="features-list-item-box">
+                            <img class="features-list-item-img" src="./images/features/astronaut.svg" alt="Изображение астронавта">
+                        </div> -->
                         
                         <h3 class="subtitel-dark">Современные технологии</h3>
                         <p class="description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
@@ -132,22 +162,34 @@
                         <ul class="social-links list">
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Инстаграм">
-                                    <img src="./images/logo-instagram.svg" alt="Иконка Инстаграм">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-instagram" alt="Иконка Инстаграм"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-instagram.svg" alt="Иконка Инстаграм"> -->
                                 </a>
                             </li>
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Твиттер">
-                                    <img src="./images/logo-twitter.svg" alt="Иконка Твиттер">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-twitter" alt="Иконка Твиттер"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-twitter.svg" alt="Иконка Твиттер"> -->
                                 </a>
                             </li>
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Фейсбук">
-                                    <img src="./images/logo-facebook.svg" alt="Иконка Фейсбук">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-facebook" alt="Иконка Фейсбук"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-facebook.svg" alt="Иконка Фейсбук"> -->
                                 </a>
                             </li>
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Линкедын">
-                                    <img src="./images/logo-linkedin.svg" alt="Иконка Линкедын">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-linkedin" alt="Иконка Линкедын"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-linkedin.svg" alt="Иконка Линкедын"> -->
                                 </a>
                             </li>
                         </ul>
@@ -159,22 +201,34 @@
                         <ul class="social-links list">
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Инстаграм">
-                                    <img src="./images/logo-instagram.svg" alt="Иконка Инстаграм">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-instagram" alt="Иконка Инстаграм"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-instagram.svg" alt="Иконка Инстаграм"> -->
                                 </a>
                             </li>
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Твиттер">
-                                    <img src="./images/logo-twitter.svg" alt="Иконка Твиттер">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-twitter" alt="Иконка Твиттер"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-twitter.svg" alt="Иконка Твиттер"> -->
                                 </a>
                             </li>
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Фейсбук">
-                                    <img src="./images/logo-facebook.svg" alt="Иконка Фейсбук">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-facebook" alt="Иконка Фейсбук"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-facebook.svg" alt="Иконка Фейсбук"> -->
                                 </a>
                             </li>
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Линкедын">
-                                    <img src="./images/logo-linkedin.svg" alt="Иконка Линкедын">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-linkedin" alt="Иконка Линкедын"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-linkedin.svg" alt="Иконка Линкедын"> -->
                                 </a>
                             </li>
                         </ul>
@@ -186,22 +240,34 @@
                         <ul class="social-links list">
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Инстаграм">
-                                    <img src="./images/logo-instagram.svg" alt="Иконка Инстаграм">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-instagram" alt="Иконка Инстаграм"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-instagram.svg" alt="Иконка Инстаграм"> -->
                                 </a>
                             </li>
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Твиттер">
-                                    <img src="./images/logo-twitter.svg" alt="Иконка Твиттер">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-twitter" alt="Иконка Твиттер"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-twitter.svg" alt="Иконка Твиттер"> -->
                                 </a>
                             </li>
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Фейсбук">
-                                    <img src="./images/logo-facebook.svg" alt="Иконка Фейсбук">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-facebook" alt="Иконка Фейсбук"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-facebook.svg" alt="Иконка Фейсбук"> -->
                                 </a>
                             </li>
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Линкедын">
-                                    <img src="./images/logo-linkedin.svg" alt="Иконка Линкедын">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-linkedin" alt="Иконка Линкедын"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-linkedin.svg" alt="Иконка Линкедын"> -->
                                 </a>
                             </li>
                         </ul>
@@ -213,22 +279,34 @@
                         <ul class="social-links list">
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Инстаграм">
-                                    <img src="./images/logo-instagram.svg" alt="Иконка Инстаграм">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-instagram" alt="Иконка Инстаграм"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-instagram.svg" alt="Иконка Инстаграм"> -->
                                 </a>
                             </li>
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Твиттер">
-                                    <img src="./images/logo-twitter.svg" alt="Иконка Твиттер">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-twitter" alt="Иконка Твиттер"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-twitter.svg" alt="Иконка Твиттер"> -->
                                 </a>
                             </li>
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Фейсбук">
-                                    <img src="./images/logo-facebook.svg" alt="Иконка Фейсбук">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-facebook" alt="Иконка Фейсбук"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-facebook.svg" alt="Иконка Фейсбук"> -->
                                 </a>
                             </li>
                             <li class="social-links-item">
                                 <a class="social-links-item-link link" href="" aria-label="Ссылка Линкедын">
-                                    <img src="./images/logo-linkedin.svg" alt="Иконка Линкедын">
+                                    <svg class="social-link-item-logo">
+                                        <use href="../images/sprite.svg#icon-logo-linkedin" alt="Иконка Линкедын"></use>
+                                    </svg>
+                                    <!-- <img src="./images/logo-linkedin.svg" alt="Иконка Линкедын"> -->
                                 </a>
                             </li>
                         </ul>
@@ -243,32 +321,50 @@
                 <ul class="customers-list list">
                     <li class="customers-list-item">
                         <a class="customers-list-link link" href="" aria-label="Ссылка на клиента №1">
-                            <img src="./images/clients/client-1.svg" alt="Логотип клиента №1">
+                            <svg width="44.3" height="49.2"class="customers-link-item-logo">
+                                <use href="../images/sprite.svg#icon-client-1"></use>
+                            </svg>
+                            <!-- <img src="./images/clients/client-1.svg" alt="Логотип клиента №1"> -->
                         </a>
                     </li>
                     <li class="customers-list-item">
                         <a class="customers-list-link link" href="" aria-label="Ссылка на клиента №2">
-                            <img src="./images/clients/client-2.svg" alt="Логотип клиента №2">
+                            <svg width="40" height="52" class="customers-link-item-logo">
+                                <use href="../images/sprite.svg#icon-client-2"></use>
+                            </svg>
+                            <!-- <img src="./images/clients/client-2.svg" alt="Логотип клиента №2"> -->
                         </a>
                     </li>
                     <li class="customers-list-item">
                         <a class="customers-list-link link" href="" aria-label="Ссылка на клиента №3">
-                            <img src="./images/clients/client-3.svg" alt="Логотип клиента №3">
+                            <svg width="41" height="42.6" class="customers-link-item-logo">
+                                <use href="../images/sprite.svg#icon-client-3"></use>
+                            </svg>
+                            <!-- <img src="./images/clients/client-3.svg" alt="Логотип клиента №3"> -->
                         </a>
                     </li>
                     <li class="customers-list-item">
                         <a class="customers-list-link link" href="" aria-label="Ссылка на клиента №4">
-                            <img src="./images/clients/client-4-active.svg" alt="Логотип клиента №4">
+                            <svg width="79.7" height="42" class="customers-link-item-logo">
+                                <use href="../images/sprite.svg#icon-client-4"></use>
+                            </svg>
+                            <!-- <img src="./images/clients/client-4-active.svg" alt="Логотип клиента №4"> -->
                         </a>
                     </li>
                     <li class="customers-list-item">
                         <a class="customers-list-link link" href="" aria-label="Ссылка на клиента №5">
-                            <img src="./images/clients/client-5.svg" alt="Логотип клиента №5">
+                            <svg width="59" height="47" class="customers-link-item-logo">
+                                <use href="../images/sprite.svg#icon-client-5"></use>
+                            </svg>
+                            <!-- <img src="./images/clients/client-5.svg" alt="Логотип клиента №5"> -->
                         </a>
                     </li>
                     <li class="customers-list-item">
                         <a class="customers-list-link link" href="" aria-label="Ссылка на клиента №6">
-                            <img src="./images/clients/client-6.svg" alt="Логотип клиента №6">
+                            <svg width="88.5" height="45.5" class="customers-link-item-logo">
+                                <use href="../images/sprite.svg#icon-client-6"></use>
+                            </svg>
+                            <!-- <img src="./images/clients/client-6.svg" alt="Логотип клиента №6"> -->
                         </a>
                     </li>
                 </ul>
@@ -301,23 +397,35 @@
                 <p class="footer-titel">ПРИСОЕДИНЯЙТЕСЬ</p>
                 <ul class="social-links list">
                     <li class="social-links-item">
-                        <a class="social-links-item-link link" href="" aria-label="Ссылка Инстаграм">
-                            <img src="./images/logo-instagram-dark.svg" alt="Иконка Инстаграм">
+                        <a class="footer-social-links-item-link link" href="" aria-label="Ссылка Инстаграм">
+                            <svg class="social-link-item-logo">
+                                <use href="../images/sprite.svg#icon-logo-instagram" alt="Иконка Инстаграм"></use>
+                            </svg>
+                            <!-- <img src="./images/logo-instagram.svg" alt="Иконка Инстаграм"> -->
                         </a>
                     </li>
                     <li class="social-links-item">
-                        <a class="social-links-item-link link" href="" aria-label="Ссылка Твиттер">
-                            <img src="./images/logo-twitter-active.svg" alt="Иконка Твиттер">
+                        <a class="footer-social-links-item-link link" href="" aria-label="Ссылка Твиттер">
+                            <svg class="social-link-item-logo">
+                                <use href="../images/sprite.svg#icon-logo-twitter" alt="Иконка Твиттер"></use>
+                            </svg>
+                            <!-- <img src="./images/logo-twitter.svg" alt="Иконка Твиттер"> -->
                         </a>
                     </li>
                     <li class="social-links-item">
-                        <a class="social-links-item-link link" href="" aria-label="Ссылка Фейсбук">
-                            <img src="./images/logo-facebook-dark.svg" alt="Иконка Фейсбук">
+                        <a class="footer-social-links-item-link link" href="" aria-label="Ссылка Фейсбук">
+                            <svg class="social-link-item-logo">
+                                <use href="../images/sprite.svg#icon-logo-facebook" alt="Иконка Фейсбук"></use>
+                            </svg>
+                            <!-- <img src="./images/logo-facebook.svg" alt="Иконка Фейсбук"> -->
                         </a>
                     </li>
                     <li class="social-links-item">
-                        <a class="social-links-item-link link" href="" aria-label="Ссылка Линкедын">
-                            <img src="./images/logo-linkedin-dark.svg" alt="Иконка Линкедын">
+                        <a class="footer-social-links-item-link link" href="" aria-label="Ссылка Линкедын">
+                            <svg class="social-link-item-logo">
+                                <use href="../images/sprite.svg#icon-logo-linkedin" alt="Иконка Линкедын"></use>
+                            </svg>
+                            <!-- <img src="./images/logo-linkedin.svg" alt="Иконка Линкедын"> -->
                         </a>
                     </li>
                 </ul>
@@ -326,7 +434,7 @@
                 <p class="footer-titel">ПОДПИСЫВАЙТЕСЬ НА РФССЫЛКУ</p>
                 <div class="footer-subcribe-to">
                     <input class="footer-subcribe-input" type="text">
-                    <button type="button" class="button">Подписаться</button>
+                    <button type="button" class="button subcribe">Подписаться</button>
                 </div>
                 
             </div>
