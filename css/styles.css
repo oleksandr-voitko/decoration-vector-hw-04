@@ -100,7 +100,7 @@ img {
 }
 
 .navigation-list-item:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .navigation-list-link {
@@ -348,7 +348,7 @@ img {
 
 /* Секция НАША КОМАНДА */
 .team {
-    background-color: #AFB1B8;
+    background-color: #F5F4FA;
 }
 
 /* .team .container {
